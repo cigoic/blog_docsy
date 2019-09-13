@@ -10,8 +10,8 @@ theme = ["docsy"]
 enableGitInfo = true
 
 # Language settings
-contentDir = "content/tw"
-defaultContentLanguage = "zh-tw"
+contentDir = "content/en"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -53,23 +53,23 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Hutu"
+description = "Welcome to Hutu's Blog."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.zh-tw]
 title = "難得糊塗"
 description = "糊塗時糊塗難得"
-languageName ="中文/Traditional Chinese"
+languageName ="繁體中文"
 contentDir = "content/tw"
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+# [languages.no]
+# title = "Hutu"
+# description = "Docsy er operativsystem for skyen"
+# languageName ="Norsk"
+# contentDir = "content/no"
+time_format_default = "2019-09-13"
+time_format_blog = "2019-09-13"
 
 
 # Everything below this are Site Params
