@@ -2,8 +2,6 @@ baseURL = "/"
 title = "Hutu"
 
 enableRobotsTXT = true
-# rss_sections = ["blog"]
-disableKinds = ["RSS"]
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
@@ -18,7 +16,8 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# rss_sections = ["blog"]
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 # Highlighting config
 pygmentsCodeFences = true
